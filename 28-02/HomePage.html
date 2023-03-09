@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        html{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="PI"> <!--Parte iniziale di una pagina-->
+        <h1>My Blog</h1>
+             <!--Menu di navigazione con dei Link-->
+        <nav>
+            <a href="HomePage.html">HomePage</a> 
+            <a href="Table.html">Table</a>
+            <a href="List.html">List</a>
+        </nav>
+    </header>
+    <main> <!--Parte centrale di una pagina-->
+        <article class="PO">     <!--per definire un articolo-->
+            <div>  <!--un contenitore generico-->
+                <a href="#p3">Go to Third Chapter</a> 
+                <br>
+                <a href="#p4">Go to Conclusion</a>
+            </div>
+            
+            <div id="sections">
+
+                <section> <!--sono delle sezioni-->
+                    <h3>First Chapter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo accusantium iste nobis repudiandae? Inventore dolor reprehenderit illo. 
+                                <!--piu debole di EM-->
+                    <i>Ratione, magni. Lorem ipsum dolor sit,</i>  amet consectetur adipisicing elit. Nemo placeat quas obcaecati consequatur dolore ipsam possimus reprehenderit architecto sequi ad temporibus <em>aliquid, doloremque nobis nisi modi</em>  iure beatae! Quam, quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi assumenda obcaecati quod, dicta delectus similique nesciunt perferendis dignissimos ipsa repudiandae excepturi doloremque eum, hic magni fugiat ex voluptatem nam quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. <u>Ipsum est reprehenderit</u> inventore laborum, sapiente voluptates! Ea, consequatur! Soluta voluptas, perferendis nemo, distinctio similique, ea architecto vel beatae corporis nesciunt enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quidem voluptas dolorem dignissimos voluptatem dolore ipsum ut, eum at quasi pariatur culpa aliquam nam eaque, sequi, <del>veritatis vel doloribus!</del> Cupiditate.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo accusantium iste nobis repudiandae? Inventore dolor reprehenderit illo. Ratione, magni.</p>
+                    <a href="#top">Return to menu</a>
+                </section>
+
+                <section>
+                    <h3>Second Chapter</h3>
+                    <p> <strong>H<sub>2</sub>0</strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo accusantium iste nobis repudiandae? Inventore dolor reprehenderit illo. Ratione, magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            <!--piu debole di strong-->
+                    <b>Doloremque maxime culpa nobis atque</b> aspernatur quidem voluptatum pariatur, minus accusamus, corporis natus, consequuntur quos enim voluptatem aliquam excepturi cupiditate <ins>numquam nostrum?</ins>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium id incidunt amet temporibus aliquid nostrum atque provident blanditiis esse expedita? Id dolore dignissimos est sequi rem itaque molestiae perspiciatis vitae. <br>  <!--spazio--> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo <span>guaichwlnq</span>  <!--è il rispettivo di div in-line-->
+                    iste nobis repudiandae? Inventore dolor reprehenderit illo. Ratione, magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam molestias mollitia asperiores harum voluptates, quasi voluptatibus architecto id, sed excepturi fugiat doloremque alias vero esse ipsam commodi nisi a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, assumenda inventore suscipit eum nihil nobis saepe veritatis quae nam praesentium corporis quis omnis quia deleniti iusto? Iusto velit est dolorem. </p>
+                    <a href="#top">Return to menu</a>
+                </section>
+
+                <section>
+                    <h3 id="p3">Third Chapter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo accusantium iste nobis repudiandae? Inventore dolor reprehenderit illo. Ratione, magni. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro necessitatibus perferendis modi facilis provident, dolorem quibusdam iure labore? Beatae laborum distinctio provident, laboriosam optio expedita aliquid quaerat autem atque! Hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet omnis quo incidunt modi quos perspiciatis dolorem consequuntur sed veniam, unde hic blanditiis est error nam quas nulla! Adipisci. <br> libero quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum officiis aperiam nulla iusto tempora fugit odit quo, ad tempore nisi doloremque reprehenderit vel eum. Cupiditate quam nesciunt cumque quis. Veritatis assumenda vero sit omnis quos in non alias odio qui? Enim tempore ut magnam animi atque illo odit, corrupti consequatur quas! 
+                    <!--è una citazione in-line-->
+                    <q>James Bond</q>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique inventore praesentium neque est assumenda et facilis, maiores quos nemo accusantium iste nobis repudiandae? Inventore dolor reprehenderit illo. Ratione, magni.</p>
+                    <a href="#top">Return to menu</a>  <!--Ritorna sul menu-->
+                </section>
+            </div>
+            <!--è una citazione in block-->  <!--CITE fonte della citazione-->
+            <blockquote cite="#" > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis impedit fugit veniam soluta, nobis vel dolores nemo eaque perferendis quisquam ex expedita. Ut magnam, iste nemo nisi quo quos aliquam.</blockquote>
+        </article>
+   </main>
+   <footer> <!--parte finale di una pagina-->
+        <div>
+            <h3 id="p4">Conclusion</h3 >                <!--ID che identifica il link di conclusione-->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nisi error non similique porro illo laudantium! Delectus libero quia vitae repudiandae animi, suscipit, ab explicabo dolorum accusantium rem, id quas!      XY<sup>2</sup>   </p>
+        </div>
+   </footer>
+
+</body>
+</html>

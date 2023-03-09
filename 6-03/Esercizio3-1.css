@@ -1,0 +1,55 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.menu1{
+    float: left;
+}
+.menu2,
+.menu1{
+    padding: 1rem;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.menu2:hover,
+.menu1:hover{
+    background-color: blue;
+}
+.menu2{
+    float: right;
+}
+section{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+section:hover{
+    background-color: rgba(68, 154, 125, 0.591);
+    color: rgb(141, 55, 55);
+    border-radius: 20px;
+    
+}
+.primasezione{
+    background-color: blanchedalmond;
+    width: 400px;
+}
+.secondasezione{
+    width: 400px;
+    background-color: rgb(120, 80, 80);
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#footer{
+    float: right;
+}

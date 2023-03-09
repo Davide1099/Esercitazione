@@ -1,0 +1,10 @@
+a{
+    color: black;
+}
+
+a [href="/the-one-ring"]:visited{
+    color: gold;
+}
+a [href="/the-one-ring"]:visited{
+    color: red;
+}

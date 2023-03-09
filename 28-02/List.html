@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        .PI{
+            text-align:center;
+        }
+        .List{
+            list-style-type: none;
+            font-size: 1rem;
+            display: inline-block;
+            text-align: center;
+            margin-left: 40%;
+            padding: 5% 5%;
+            background-color: aliceblue;
+        }
+        .List2 {
+            list-style-type: none;
+            font-size: 1.5rem;
+            margin-left: 30%;
+        }
+
+        .List2 li {
+            padding: 0.3rem 0.5rem;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .List2 li:nth-child(odd) {
+            background-color: #968f96;
+            color: white;
+        }
+
+        .List2 li:nth-child(even) {
+            background-color: #dbd3db;
+        }
+        
+        .List2 li:nth-child(2),
+        .List2 li:nth-last-child(2) {
+            background-color: aqua;
+        }
+        .List2 h3{
+            margin-left: 15%;
+        }
+    </style>
+</head>
+<body>
+    <header class="PI">
+        <h1>My Blog</h1>
+        <nav>
+            <a href="HomePage.html">HomePage</a>
+            <a href="Table.html">Table</a>
+            <a href="List.html">List</a>
+        </nav>
+    </header>
+    <main>
+        <ul class="List">
+            <h3>First List</h3>
+            <li>banana</li>
+            <li>pears</li>
+            <li>carrots</li>
+            <li>giovanni</li>
+        </ul>
+        <ul class="List2">
+            <h3>First List</h3>
+            <li>banana</li>
+            <li>pears</li>
+            <li>carrots</li>
+            <li>giovanni</li>
+        </ul>
+        <ul class="List3">
+            <h3>First List</h3>
+            <li>banana</li>
+            <li>pears</li>
+            <li>carrots</li>
+            <li>giovanni</li>
+        </ul>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

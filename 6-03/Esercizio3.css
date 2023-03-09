@@ -1,0 +1,53 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    margin: 0rem 1rem;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+nav div {
+    float: left;
+    margin-right: 50px;
+}
+
+nav div a{
+    padding: 1rem 1rem;
+    background-color: #317991;
+}
+#logo{
+    height: 20px;
+    width: 20px;
+}
+nav div:last-child{
+    float: right;
+}
+section h2{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+div{
+    float: left;
+    padding: 1rem;
+
+}
+.html, .css1{
+    width: 20%;
+}
+.css{
+    background-color: #319133;
+    width: 80%;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+

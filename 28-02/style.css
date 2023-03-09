@@ -1,0 +1,152 @@
+/*Home Page*/
+html{
+    font-size: 18px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PI{
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 1%;
+    border-radius: 13%;
+}
+h1{
+    color: brown;
+    margin-bottom: 2%;
+}
+.PO{
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 1%;
+}
+.PO div:nth-child(1){
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 15%;
+}
+section{
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 8%;
+}
+h3{
+    color: rgb(137, 153, 66);
+}
+span{
+    color: blue;
+}
+a{
+    color: blanchedalmond;
+    text-decoration: none; /*toglie la linea dei link*/
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: rgba(89, 103, 116, 0.72);
+    border-radius: 5%;
+}
+/*Page Table*/
+caption{
+    color: rgb(0, 128, 0);
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.Table1{
+    width: 70%;
+    margin-left: 18%;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: rgb(88, 198, 190,0.4);
+    font-family: 'Mulish', sans-serif;
+    border-collapse: collapse;        
+}
+.Table1 thead{
+    background-color: bisque;
+    border-bottom: 4px solid gray;
+}
+.Table1 th,.Table1 td {
+    padding: 20px;
+}
+.Table2 {
+    width: 70%;
+    margin-left: 18%;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: rgb(88, 198, 190,0.4);
+    font-family: 'Mulish', sans-serif;
+    border-collapse: collapse;    
+    border: 1px solid;       
+}
+.Table2 thead{
+    background-color: bisque;
+    border-bottom: 4px solid gray;
+}
+.Table2 th,.Table2 td {
+    padding: 20px;
+}
+.Table2 td{
+    border-bottom: 1px solid black;
+}
+.Table2 tbody tr:nth-child(even){
+    background-color: azure;
+}
+.Table3{
+    width: 70%;
+    margin-left: 18%;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: rgb(88, 198, 190,0.4);
+    font-family: 'Mulish', sans-serif;
+    border-collapse: collapse;   
+    border: 1px solid;        
+}
+.Table3 thead{
+    background-color: bisque;
+    border-bottom: 4px solid gray;
+}
+.Table3 th,.Table3 td {
+    padding: 20px;
+}
+.Table3 tbody tr:nth-child(odd){
+    background-color: azure;
+}
+.Table3 td{
+    border-right: 1px solid black;
+}
+/*liste non ordinata*/
+.List{
+    list-style-type: none;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    padding: 5% 5%;
+    background-color: aliceblue;
+}
+.List2 {
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-left: 30%;
+}
+
+.List2 li {
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.List2 li:nth-child(odd) {
+    background-color: #968f96;
+    color: white;
+}
+
+.List2 li:nth-child(even) {
+    background-color: #dbd3db;
+}
+
+.List2 li:nth-child(2),
+.List2 li:nth-last-child(2) {
+    background-color: aqua;
+}
+.List2 h3{
+    margin-left: 15%;
+}
