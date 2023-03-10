@@ -1,0 +1,41 @@
+main div:nth-child(1){
+    margin: 1rem;
+}
+header{
+    display: flex;
+    align-items: baseline;
+}
+header div:last-child{
+    margin-left:auto;
+}
+div .news-detail{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid;
+}
+main{
+    display: flex;
+}
+img{
+    width: 50px;
+}
+/* main div:nth-of-type(1)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: black;
+    left: 66%;
+} */
+main > div:first-child{
+    border-right: solid;
+}
+
+.images img{
+    align-items: baseline;
+}
+
+ol li{
+    list-style-type: none;
+}

@@ -1,14 +1,17 @@
 html body{
     margin: 0;
     padding: 0;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     box-sizing: border-box;
 }
 nav{
-    margin: 0rem 1rem;
+    margin: 1rem;
     padding: 2rem;
     background-color: aquamarine;
+    border-radius: 10px;
 }
 nav div {
     float: left;
@@ -18,36 +21,73 @@ nav div {
 nav div a{
     padding: 1rem 1rem;
     background-color: #317991;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
-#logo{
-    height: 20px;
-    width: 20px;
+nav div a:hover{
+    background-color: #319133;
+    opacity: 0.6;
+    color: black;
+    border-radius: 0;
 }
+
+img{
+    width: 2rem;
+    height: 100%;
+    cursor: pointer;
+}
+
 nav div:last-child{
     float: right;
 }
-section h2{
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
+section{
+    margin: 1rem;
+    border-radius: 10px;
 }
-div{
+section h2{
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #319133;
+    text-transform: uppercase;
+
+}
+.html, .css{
     float: left;
     padding: 1rem;
-
+    border-radius: 10px;
+}
+.css{
+    background-color: #1f381f;
+    width: 80%;
 }
 .html, .css1{
     width: 20%;
 }
-.css{
-    background-color: #319133;
-    width: 80%;
+.js, .css1{
+    float: left;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
+.js{
+    background-color:yellow ;
+    width: 60%;
+}
+.css1{
+    background-color:gray ;
+    width: 20%;
+}
+.html{
+    background-color: orange;
+}
 .clearfix::after {
     display: block;
     content: "";
     clear: both;
 }
-
-

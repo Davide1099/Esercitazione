@@ -5,8 +5,26 @@ html body{
 *{
     box-sizing: border-box;
 }
+section{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+section:hover{
+    background-color: rgba(68, 154, 125, 0.591);
+    color: rgb(141, 55, 55);
+    border-radius: 20px; 
+}
+.primasezione{
+    background-color: blanchedalmond;
+    width: 400px;
+}
 .menu1{
     float: left;
+}
+.menu2{
+    float: right;
 }
 .menu2,
 .menu1{
@@ -18,38 +36,27 @@ html body{
 .menu1:hover{
     background-color: blue;
 }
-.menu2{
-    float: right;
-}
-section{
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-}
-section:hover{
-    background-color: rgba(68, 154, 125, 0.591);
-    color: rgb(141, 55, 55);
-    border-radius: 20px;
-    
-}
-.primasezione{
-    background-color: blanchedalmond;
-    width: 400px;
-}
 .secondasezione{
     width: 400px;
     background-color: rgb(120, 80, 80);
 }
 img{
     width: 40px;
-    height: 40px;
+    height: 100%;
+    cursor: pointer;
+}
+.imh{
+    float:left
+}
+#foot{
+    float: right;
+}
+.imh{
+    margin-top: 15rem;
+    margin-bottom: 2rem;
 }
 .clearfix::after {
     display: block;
     content: "";
     clear: both;
-}
-#footer{
-    float: right;
 }
