@@ -1,0 +1,95 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 13, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after {
+    color: white;
+    box-sizing: border-box;
+}
+                                    /* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.contentCard,
+.contentMain,
+.heroSection,
+.sideLink,
+.navbarLink,
+.navbarLink1,
+.navbarLink2{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+#profile img,
+.sideLink img,
+.navbarLink>a:first-child>img:first-child{
+    width: 20px;
+}
+.navbarLink>a:nth-child(2)>img:first-child{
+    width: 100px;
+}
+.navbarLink2>a:nth-child(3)>img:first-child,
+.navbarLink2>a:nth-child(2)>img:first-child,
+.navbarLink2>a:first-child>img:first-child{
+    width: 40px;
+} 
+
+                                    /* HeroSection/sideMenu */
+.sideLink{
+    margin: 1rem;
+    padding: 0.5rem;
+    flex-direction: column;
+}
+.sideLink:hover{
+    background-color: rgba(128, 128, 128, 0.43);
+}
+
+                                    /* HeroSection/contentMenu */
+.content{
+    margin: 1rem;
+}
+.contentMenu a{
+    background-color: rgba(81, 81, 81, 0.43);
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+.card:hover,
+.contentMenu a:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.698);
+}
+                                    /* HeroSection/card */
+.card{
+    margin-top: 2rem;
+    width: 400px;
+}
+#video img{
+    width: 400px;
+    padding: 1rem;
+}
+.contentCard:last-child h4{
+    margin: 0;
+}
+                                    /* All */
+.contentMenu a,
+.sideLink a,
+.account a{
+    text-decoration: none;
+}
+.card:hover,
+.sideLink:hover,
+.contentMenu a,
+img{
+    border-radius: 10px;
+}
+
+.contentMain2{
+    display: flex;
+}
