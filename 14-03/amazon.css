@@ -1,0 +1,108 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(13, 10, 10);
+}
+*
+*::after
+*::before{
+    box-sizing: border-box;
+}
+                            /* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 0;
+    margin: 1rem ;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.536);
+}
+                            /* navbar_left */
+.logo>a:first-child>img:first-child{
+    padding: 1rem;
+    width: 100px;
+}
+                            /* navbar_center */
+.navbar,
+.navbar_center{
+    display: flex;
+}
+.list{
+    width: 40px;
+    border-radius: 30% 0% 0% 30%;
+    border: 0.3px solid rgb(64, 64, 64);
+    padding: 0.5rem 0 0.5rem 0;
+}
+#search{
+    width: 400px;
+    border: 0.3px solid rgb(64, 64, 64); 
+    padding: 0.3rem 0 0.3rem 0;
+}
+#button{
+    border: 0.3px solid rgb(64, 64, 64); 
+    border-radius: 0% 30% 30% 0;
+    padding: 0.3rem;
+}
+.list:hover,
+#button:hover,
+#search:hover{
+    border: 2px solid bisque; 
+}
+                            /* navbar_right*/
+.right_navbar a{
+    margin-left: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: solid ;
+    color: rgba(40, 40, 175, 0.58);
+    border-radius: 10px;
+}
+.right_navbar a:hover{
+    color: bisque;
+    background-color: rgba(40, 40, 175, 0.58);
+    cursor: pointer;
+}
+.cart{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: solid ;
+    border-radius: 10px;
+    color: rgba(155, 50, 50, 0.58);
+    background-color: rgba(192, 138, 38, 0.623);
+}
+.cart:hover{
+    background-color: rgba(255, 0, 0, 0.483);
+    color: bisque;
+}
+                            /* card */
+.card {
+    width: 300px;
+    padding: 1rem;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgba(245, 245, 220, 0.536);
+    color: white;
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+h3{
+    color: bisque;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main a{
+    align-items: baseline;
+}

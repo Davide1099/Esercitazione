@@ -1,0 +1,47 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*
+*::after
+*::before{
+    box-sizing: border-box;
+}
+                            /* logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 1rem ;
+}
+.logo>a:first-child>img:first-child{
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.536);
+    padding: 1rem;
+    width: 200px;
+}
+                            /* main */
+.principal_content{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+#login{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+                            /* signin*/
+.right_navbar a{
+    margin-left: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: solid ;
+    color: rgba(40, 40, 175, 0.58);
+    border-radius: 10px;
+}
+.right_navbar a:hover{
+    color: bisque;
+    background-color: rgba(40, 40, 175, 0.58);
+    cursor: pointer;
+}
