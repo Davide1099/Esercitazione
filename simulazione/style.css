@@ -1,0 +1,169 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+    background-color: black;
+    color: white;
+}
+*
+*::after
+*::before{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+                            /*navbar*/
+#navbar{
+    width: 16%;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#navigation a img{
+    width: 20px;
+}
+#logo a{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+#logo a img{
+    width: 50px;
+}
+#logo a span{
+    font-size: 25px;
+}
+#my_menu_navigation,
+#menu_navigation{
+    display: flex;
+    flex-direction: column;
+}
+#menu_navigation{
+    padding: 0rem 1rem 1rem 1rem;
+}
+#my_menu_navigation{
+    margin: 1rem 1rem 1rem 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+#my_menu_navigation div a span,
+#menu_navigation div a span{
+    padding-left: 1rem;
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+}
+#my_menu_navigation div a span:hover,
+#menu_navigation div a span:hover,
+#my_artist div a:hover{
+    color: rgb(136, 136, 136);
+}
+#my_artist div{
+    padding: 1rem;
+}
+#my_artist div a{
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+}
+#album{
+    display: flex;
+    background-image:url(img1/daft punk/Random_Access_Memories.jpeg);
+}
+                 /* content_header */
+#content_header{
+    width: 84%;
+}
+#direction{
+    display: flex;
+    justify-content: space-between;
+}
+#direction>section:first-child{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+#direction>section:first-child div img{
+    background-color:rgba(0, 0, 0, 0.694);
+}
+#direction>section:last-child div{
+    margin: 1rem;
+    background-color:rgba(0, 0, 0, 0.694);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#direction>section div img{
+    margin: 0.3rem;
+    border-radius: 100%;
+    padding: 0.5rem;
+    width: 15px;  
+}
+#direction>section div a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#background{
+    padding: 1rem;
+    background-image: url(img1/daftpunk/daft-punk.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content_footer{
+    display: flex;
+    flex-direction: column;
+}
+#content_footer div img{
+    width: 20px;
+}
+#content_footer div span{
+    color: rgb(121, 118, 118);
+    font-size: 15px;
+}
+#name{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: bold;
+}
+#view{
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 15px;
+}
+#direction1{
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+}
+.allsong{
+    width: 70%;
+}
+.song
+h1{
+    margin: 0;
+    padding: 1rem;
+    font-size: 30px;
+}
+.allsong div{
+    padding: 1rem;
+}
+.allsong>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.allsong>div>img[src="img1/daftpunk/Get_Lucky.jpeg"]{
+    width: 40px;
+}
+.barba{
+    width: 30%;
+}
+.footermain{
+    display: flex;
+}
+.gianni{
+    display: flex;
+}
