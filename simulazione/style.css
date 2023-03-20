@@ -2,7 +2,6 @@ html body{
     margin: 0;
     padding: 0;
     font-family: 'Sono', sans-serif;
-    background-color: black;
     color: white;
 }
 *
@@ -16,6 +15,8 @@ main{
                             /*navbar*/
 #navbar{
     width: 16%;
+    background-color: black;
+    border-radius: 0px 10px 0px 0px;
 }
 #navbar a{
     text-decoration: none;
@@ -27,6 +28,7 @@ main{
 #logo a{
     display: flex;
     align-items: center;
+    gap: 1rem;
     padding: 1rem;
 }
 #logo a img{
@@ -41,9 +43,11 @@ main{
     flex-direction: column;
 }
 #menu_navigation{
+    gap: 1rem;
     padding: 0rem 1rem 1rem 1rem;
 }
 #my_menu_navigation{
+    gap: 1rem;
     margin: 1rem 1rem 1rem 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid white;
@@ -52,71 +56,93 @@ main{
 #menu_navigation div a span{
     padding-left: 1rem;
     color: rgb(194, 194, 194);
-    font-size: 20px;
+    font-size: 16px;
 }
 #my_menu_navigation div a span:hover,
 #menu_navigation div a span:hover,
 #my_artist div a:hover{
-    color: rgb(136, 136, 136);
+    color: rgba(109, 109, 109, 0.809);
 }
 #my_artist div{
     padding: 1rem;
 }
 #my_artist div a{
     color: rgb(194, 194, 194);
-    font-size: 20px;
+    font-size: 16px;
 }
 #album{
     display: flex;
-    background-image:url(img1/daft punk/Random_Access_Memories.jpeg);
+    padding: 0;
+}
+#album img{
+    width: 230px;
+    border-radius: 50px;
 }
                  /* content_header */
+                 /* background */
 #content_header{
     width: 84%;
+}
+#content_main{
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+#background{
+    padding: 1rem;
+    border-radius: 0px 0px 10px 10px;
+    background-image: url(img1/daftpunk/daft-punk.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #direction{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 #direction>section:first-child{
     display: flex;
     margin-left: 2rem;
     margin-top: 0.5rem;
 }
-#direction>section:first-child div img{
+#direction>section:first-child img{
     background-color:rgba(0, 0, 0, 0.694);
+    margin: 0.3rem;
+    border-radius: 100%;
+    padding: 0.5rem;
+    width: 15px;
+}
+#direction>section:last-child div:hover,
+#direction>section:first-child img:hover{
+    background-color:rgba(109, 109, 109, 0.809) ;
 }
 #direction>section:last-child div{
-    margin: 1rem;
     background-color:rgba(0, 0, 0, 0.694);
     border-radius: 20px;
     display: flex;
     align-items: center;
-}
-#direction>section div img{
-    margin: 0.3rem;
-    border-radius: 100%;
+    justify-content: space-between;
+    width: 8rem;
     padding: 0.5rem;
-    width: 15px;  
+}
+#direction>section:last-child img{
+    border-radius: 100%;
+    width: 18px;  
 }
 #direction>section div a{
     text-decoration: none;
     color: white;
     text-align: center;
 }
-#background{
-    padding: 1rem;
-    background-image: url(img1/daftpunk/daft-punk.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #content_footer{
     display: flex;
     flex-direction: column;
 }
-#content_footer div img{
-    width: 20px;
+#content_footer>div img{
+    width: 19px;
+}
+#content_footer>div{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 #content_footer div span{
     color: rgb(121, 118, 118);
@@ -133,22 +159,43 @@ main{
     font-size: 20px;
     font-weight: 15px;
 }
+                 /* background */
 #direction1{
+    gap: 1rem;
     padding: 1rem;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+}
+#direction1 a{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#direction1 a:hover{
+    background-color:rgba(109, 109, 109, 0.809);
+    border: 1px solid rgba(109, 109, 109, 0.809);
+}
+                 /* footeermain */
+.footermain{
+    display: flex;
 }
 .allsong{
     width: 70%;
 }
-.song
 h1{
     margin: 0;
     padding: 1rem;
-    font-size: 30px;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
 }
 .allsong div{
     padding: 1rem;
+}
+.allsong div:hover{
+    background-color:rgba(109, 109, 109, 0.809);
+    border-radius: 30px;
 }
 .allsong>div{
     display: flex;
@@ -157,13 +204,59 @@ h1{
 }
 .allsong>div>img[src="img1/daftpunk/Get_Lucky.jpeg"]{
     width: 40px;
+    border-radius: 10px;
 }
-.barba{
+.allsong>div>a{
+    text-decoration: none;
+    color: white;
+}
+.allsong>div>a:hover{
+    color: rgb(36, 162, 36);
+}
+.allsong>div>span{
+    color:rgb(194, 194, 194);
+}
+                 /* x */
+
+.x{
     width: 30%;
+    margin-left: 1rem;
 }
-.footermain{
+.image img{
+    width: 80px;
+    border-radius: 100%;
+}
+.testo{
     display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(112, 112, 112);
+    border-radius: 20px;
+    padding: 1rem;
 }
-.gianni{
+.span{
     display: flex;
+    flex-direction: column;
 }
+.span>span:last-child{
+    color:rgb(194, 194, 194);
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 10px 0px 0px;
+}
+.right{
+    display: flex;
+    gap: 1rem;
+}
+.right>div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+.right>div:first-child>span:last-child{
+    color:rgb(153, 153, 153);
+}
+
