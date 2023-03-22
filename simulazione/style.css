@@ -63,6 +63,10 @@ main{
 #my_artist div a:hover{
     color: rgba(109, 109, 109, 0.809);
 }
+#my_artist{
+    display: flex;
+    flex-direction: column;
+}
 #my_artist div{
     padding: 1rem;
 }
