@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // trovare la stringa più lunga tra due variabili 
+        let x = 'comunemente'
+        let y = 'ciao'
+        if ( x.length > y.length ){
+            console.log('le stringa piu lunga è:' + x)
+        } else if ( x.length < y.length ) {
+            console.log('le stringa piu lunga è:' + y)
+        } else {
+            console.log('le stringa sono uguli:' + x + " " + y)
+        }
+        // questa e la stessa cosa ma meglio perche cambio le parole e non devo cambaire il codice
+        let messaggio1 = 'le stringa piu lunga è:'
+        let messaggio2 = 'le stringa sono uguali'
+        let stringalunga
+        if (x.length > y.length) {
+            stringalunga = messaggio1 + x;
+        } else if ( y.length > x.length) {   //se invece inverto la x con la y devo cambiare il maggiore in minore
+            stringalunga = messaggio1 + y;
+        } else{
+            stringalunga = messaggio2;
+        }
+        console.log(stringalunga);
+
+        let z = 'mela'
+        let space = '-'
+        let result
+
+        result = z.charAt(3) + space + z.charAt(2) + space + z.charAt(1) + space + z.charAt(0)
+        console.log(result);
+    </script>
+</body>
+</html>
